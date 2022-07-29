@@ -1,6 +1,6 @@
 // write code or Welcome component here
 
-function welcome(props){
+export default function welcome(props){
   let name=props.name;
   return <>
   <h1>Hey!{name}</h1>
